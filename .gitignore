@@ -1,0 +1,21 @@
+# Bỏ môi trường ảo Python
+venv/
+
+# Bỏ file cấu hình môi trường (chứa API key, webhook)
+.env
+
+# Bỏ các file tạm, cache của Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Bỏ thư mục giám sát nhưng vẫn giữ folder rỗng
+watch_folder/*
+!watch_folder/.gitkeep
+
+# Bỏ các file hệ thống hoặc IDE
+*.log
+*.swp
+*.swo
+.vscode/
+.idea/
